@@ -1,6 +1,7 @@
+import os
 import re
 
-inputFile = open("input.txt", "r")
+inputFile = open(os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input.txt')), "r")
 total = 0
 
 for line in inputFile:
