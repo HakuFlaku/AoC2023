@@ -1,0 +1,1 @@
+Sum of each games 'power': 63542
