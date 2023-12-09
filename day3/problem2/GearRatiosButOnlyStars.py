@@ -113,17 +113,6 @@ class Value:
     def __repr__(self):
         return "Number: " + str(self.number) + " coords: " + str(self.coords)
 
-class Symbol:
-    def __init__(self, key, adjacentNumbers):
-        self.key = key
-        self.adjacentNumbers = adjacentNumbers
-
-    def __str__(self):
-        return "Coord: " + str(self.key) + " adjacent numbers: " + str(self.adjacentNumbers)
-        
-    def __repr__(self):
-        return "Coord: " + str(self.key) + " adjacent numbers: " + str(self.adjacentNumbers)
-
 class DiKey:
     def __init__(self, L, R):
         self.L = L
